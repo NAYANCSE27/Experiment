@@ -1,0 +1,16 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header{
+    background-color: yellow;
+}
+
+.bd{
+    background-color: blue;
+}
+
+.footer{
+    background-color: green;
+}
