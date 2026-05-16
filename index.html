@@ -1,42 +1,40 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <p>Hi there 👋</p>
+    </header>
 
-    <head>
-        <title>
-            Assignment-1
-        </title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-	    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-	    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
-    </head>
+    <main class="bd">
+        <h1>Welcome to my blog</h1>
+        <img class="logo hero" src="images/coder.jpg" alt="Coder at desk">
 
-    <body>
-        <div class="header">
-            hi there
-        </div>
+        <h2>I'm good at</h2>
+        <section class="skills" aria-label="Skills">
+            <img class="logo" src="images/html.jpg" alt="HTML logo">
+            <img class="logo" src="images/css.png" alt="CSS logo">
+            <img class="logo" src="images/js.png" alt="JavaScript logo">
+        </section>
 
-        <div class="bd">
-            <h1>Welcome to my blog</h1>
-            <img class="logo" src="images/coder.jpg">
+        <h3>Contact me</h3>
+        <form action="https://formspree.io/f/xyyvrbgr" method="POST" class="contact-form">
+            <input type="text" name="name" class="field" placeholder="Your Name" required>
+            <input type="email" name="email" class="field" placeholder="Your Email" required>
+            <input type="tel" name="phone" class="field" placeholder="Phone">
+            <textarea name="message" placeholder="Message" class="field" rows="5" required></textarea>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </main>
 
-            <h2>I'm Good at.</h2>
-            <img class="logo" src="images/html.jpg">
-            <img class="logo" src="images/css.png">
-            <img class="logo" src="images/js.png">
-
-            <h3>Contact Me</h3>
-            <form action="https://formspree.io/f/xyyvrbgr" method="POST">
-				<input type="text" class="field" placeholder="Your Name">
-				<input type="text" class="field" placeholder="Your Email">
-				<input type="text" class="field" placeholder="Phone">
-				<textarea placeholder="Message" class="field"></textarea>
-				<button class="btn">Send</button>
-            </form>
-        </div>
-
-        <div class="footer">
-            contact with me..
-        </div>
-    </body>
-
+    <footer class="footer">
+        Contact with me..
+    </footer>
+</body>
 </html>
